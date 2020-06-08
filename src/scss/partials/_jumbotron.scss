@@ -1,19 +1,51 @@
 .container {
-    width: $dimensione-container;
+    max-width: $dimensione-container;
     margin: auto;
     height: 700px;
     display: flex;
 
+    .jumbo-container {
+        width: 100%;
+        display: flex;
+    }
+
     .jumbo-left {
         width: 50%;
-        background-color: green;
-        height: 700px;
+        margin: auto;
 
+        h1 {
+            font-size: $dimensione-testo-jumbotron;
+            line-height: 1.4;
+        }
+
+        small {
+            color: $colore-small;
+            padding: $spaziatura-small;
+        }
+
+        p {
+            margin-bottom: 40px;
+        }
+
+        a {
+            display: block;
+            padding-top: $padding-email;
+            text-decoration: none;
+            color: $colore-principale-testi;
+
+            &:hover {
+                color: $colore-hover;
+            }
+        }
     }
 
     .jumbo-right {
         width: 50%;
-        background-color: red;
-        height: 700px;
+        margin: auto;
+
+        img {
+            object-fit: contain;
+            height: 400px;
+        }
     }
 }

@@ -383,9 +383,12 @@ template {
 
 body {
   font-family: "PT Sans", sans-serif;
+  color: #58402c;
+  font-size: 18px;
 }
 
 button {
+  cursor: pointer;
   height: 35px;
   line-height: 35px;
   padding: 0 20px;
@@ -396,30 +399,69 @@ button {
   border: none;
 }
 
+button:hover {
+  background-color: #233569;
+  transition: 1s;
+}
+
 .container {
-  width: 60%;
+  max-width: 1440px;
   margin: auto;
   height: 700px;
   display: flex;
 }
 
+.container .jumbo-container {
+  width: 100%;
+  display: flex;
+}
+
 .container .jumbo-left {
   width: 50%;
-  background-color: green;
-  height: 700px;
+  margin: auto;
+}
+
+.container .jumbo-left h1 {
+  font-size: 50px;
+  line-height: 1.4;
+}
+
+.container .jumbo-left small {
+  color: #bdb5af;
+  padding: 5px;
+}
+
+.container .jumbo-left p {
+  margin-bottom: 40px;
+}
+
+.container .jumbo-left a {
+  display: block;
+  padding-top: 20px;
+  text-decoration: none;
+  color: #58402c;
+}
+
+.container .jumbo-left a:hover {
+  color: #30488F;
 }
 
 .container .jumbo-right {
   width: 50%;
-  background-color: red;
-  height: 700px;
+  margin: auto;
+}
+
+.container .jumbo-right img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 400px;
 }
 
 .header-container {
   display: flex;
   align-items: center;
   margin: auto;
-  width: 60%;
+  max-width: 1440px;
   height: 80px;
   border-bottom: 1px solid #bdb5af;
   color: #58402c;

@@ -1,8 +1,11 @@
 body {
     font-family: $font-pagina;
+    color: $colore-principale-testi;
+    font-size: $dimensione-testo-paragrafi;
 }
 
 button {
+    cursor: pointer;
     height: 35px;
     line-height: 35px;
     padding: 0 20px;
@@ -11,4 +14,9 @@ button {
     background: #30488f;
     border-radius: 7px;
     border: none;
+
+    &:hover {
+        background-color: $colore-hover-jumbotron;
+        transition: 1s;
+    }
 }
