@@ -1,0 +1,19 @@
+.container {
+    width: $dimensione-container;
+    margin: auto;
+    height: 700px;
+    display: flex;
+
+    .jumbo-left {
+        width: 50%;
+        background-color: green;
+        height: 700px;
+
+    }
+
+    .jumbo-right {
+        width: 50%;
+        background-color: red;
+        height: 700px;
+    }
+}

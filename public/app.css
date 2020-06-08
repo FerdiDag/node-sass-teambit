@@ -396,56 +396,71 @@ button {
   border: none;
 }
 
-.header {
-  width: 100%;
-  height: 50px;
+.container {
+  width: 60%;
+  margin: auto;
+  height: 700px;
+  display: flex;
 }
 
-.header .header-container {
+.container .jumbo-left {
+  width: 50%;
+  background-color: green;
+  height: 700px;
+}
+
+.container .jumbo-right {
+  width: 50%;
+  background-color: red;
+  height: 700px;
+}
+
+.header-container {
   display: flex;
   align-items: center;
   margin: auto;
-  width: 50%;
+  width: 60%;
   height: 80px;
   border-bottom: 1px solid #bdb5af;
   color: #58402c;
 }
 
-.header .header-container .header-left {
+.header-container .header-left {
   width: 60%;
 }
 
-.header .header-container .header-right {
+.header-container .header-right {
   width: 40%;
 }
 
-.header .header-container .header-right ul {
+.header-container .header-right ul {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-.header .header-container .header-right ul li {
+.header-container .header-right ul li {
   list-style-type: none;
+  font-size: 14px;
 }
 
-.header .header-container .header-right ul a {
+.header-container .header-right ul a {
   color: #58402c;
   text-decoration: none;
 }
 
-.header .header-container .header-right ul a:hover {
+.header-container .header-right ul a:hover {
   color: #30488F;
 }
 
-.header .header-container .header-right ul button {
+.header-container .header-right ul button {
   border: 1px solid #30488f;
   line-height: 33px;
   background: #fff;
   color: #30488f !important;
 }
 
-.header .header-container .header-right ul button:hover {
+.header-container .header-right ul button:hover {
   background-color: #30488F;
   transition: 1s;
 }
