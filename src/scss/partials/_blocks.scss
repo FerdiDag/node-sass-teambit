@@ -2,10 +2,50 @@
     background-color: $colore-sfondo-blocks;
 
     .container {
+        height: 100%;
         max-width: $dimensione-container;
         margin: auto;
         display: flex;
         flex-direction: column;
         background-color: $colore-sfondo-blocks;
+
+        .title {
+            margin: 0 auto;
+            padding: $padding-titoli-sezioni;
+
+            h2 {
+                font-size: $dimensione-titoli-sezioni;
+            }
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-evenly;
+
+            .block {
+                text-align: center;
+
+                img {
+                    height: 100px;
+                }
+
+                .rabbit {
+                    padding-top: 50px;
+                    height: 300px;
+                }
+
+                p {
+                    text-align: center;
+                    font-size: $dimensione-testo-paragrafi;
+                }
+            }
+        }
+
+        hr {
+            height: 0;
+            margin: 100px 0;
+            border-width: 0;
+            border-top: 1px solid $colore-border-bottom;
+        }
     }
 }

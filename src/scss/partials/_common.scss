@@ -52,3 +52,10 @@ button {
         }
     }
 }
+
+hr {
+    height: 0;
+    margin: 100px 0;
+    border-width: 0;
+    border-top: 1px solid $colore-border-bottom;
+}

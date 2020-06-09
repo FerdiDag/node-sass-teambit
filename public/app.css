@@ -436,6 +436,13 @@ button:hover {
   font-size: 18px;
 }
 
+hr {
+  height: 0;
+  margin: 100px 0;
+  border-width: 0;
+  border-top: 1px solid #bdb5af;
+}
+
 .header-container {
   display: flex;
   align-items: center;
@@ -543,10 +550,50 @@ button:hover {
 }
 
 #blocks .container {
+  height: 100%;
   max-width: 1440px;
   margin: auto;
   display: flex;
   flex-direction: column;
   background-color: #ffe7d2;
+}
+
+#blocks .container .title {
+  margin: 0 auto;
+  padding: 50px;
+}
+
+#blocks .container .title h2 {
+  font-size: 26px;
+}
+
+#blocks .container .row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#blocks .container .row .block {
+  text-align: center;
+}
+
+#blocks .container .row .block img {
+  height: 100px;
+}
+
+#blocks .container .row .block .rabbit {
+  padding-top: 50px;
+  height: 300px;
+}
+
+#blocks .container .row .block p {
+  text-align: center;
+  font-size: 18px;
+}
+
+#blocks .container hr {
+  height: 0;
+  margin: 100px 0;
+  border-width: 0;
+  border-top: 1px solid #bdb5af;
 }
 
