@@ -1,0 +1,42 @@
+#windows {
+    .container {
+        max-width: $dimensione-container-windows;
+        margin: auto;
+        display: flex;
+        padding-bottom: $padding-container-windows;
+
+        img {
+            height: 500px;
+        }
+
+        h2 {
+            font-size: $dimensione-titoli-sezioni;
+        }
+
+        .paragraph {
+            margin-left: $margine-blocchi-windows;
+            margin-right: $margine-blocchi-windows;
+            width: 30%;
+            font-size: $dimensione-testo-paragrafi;
+
+            .img-container {
+                padding-top: $padding-immagine-windows;
+                text-align: center;
+            }
+
+            img {
+                height: 200px;
+            }
+
+            a {
+                text-decoration: none;
+                color: $colore-links;
+                font-size: $dimensione-titoli-sezioni;
+
+                &:hover {
+                    color: $colore-hover-jumbotron;
+                }
+            }
+        }
+    }
+}

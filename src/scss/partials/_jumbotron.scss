@@ -1,52 +1,52 @@
-.container {
-    max-width: $dimensione-container;
-    margin: auto;
-    height: 700px;
-    display: flex;
-
-
-    .jumbo-container {
-        width: 100%;
-        display: flex;
-    }
-
-    .jumbo-left {
-        width: 50%;
+#jumbotron {
+    .container {
+        max-width: $dimensione-container;
         margin: auto;
+        height: 700px;
+        display: flex;
 
-        h1 {
-            font-size: $dimensione-testo-jumbotron;
-            line-height: 1.4;
+        .jumbo-container {
+            width: 100%;
+            display: flex;
         }
 
-        small {
-            color: $colore-small;
-            padding: $spaziatura-small;
-        }
+        .jumbo-left {
+            width: 50%;
+            margin: auto;
 
-        p {
-            margin-bottom: 40px;
-        }
+            h1 {
+                font-size: $dimensione-testo-jumbotron;
+                line-height: 1.4;
+            }
 
-        a {
-            display: block;
-            padding-top: $padding-email;
-            text-decoration: none;
-            color: $colore-principale-testi;
+            small {
+                color: $colore-small;
+                padding: $spaziatura-small;
+            }
 
-            &:hover {
-                color: $colore-hover;
+            p {
+                margin-bottom: 40px;
+            }
+
+            a {
+                display: block;
+                padding-top: $padding-email;
+                text-decoration: none;
+                color: $colore-principale-testi;
+
+                &:hover {
+                    color: $colore-hover;
+                }
             }
         }
-    }
 
-    .jumbo-right {
-        
-        margin: auto;
+        .jumbo-right {
+            margin: auto;
 
-        img {
-            object-fit: contain;
-            height: 400px;
+            img {
+                object-fit: contain;
+                height: 400px;
+            }
         }
     }
 }

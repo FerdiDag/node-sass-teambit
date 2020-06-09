@@ -1,49 +1,56 @@
-.header-container {
-    display: flex;
+#header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 9;
+    background-color: white;
 
-    align-items: center;
-    margin: auto;
-    max-width: $dimensione-container;
-    height: 80px;
-    border-bottom: 1px solid $colore-border-bottom;
-    color: $colore-principale-testi;
+    .header-container {
+        display: flex;
+        align-items: center;
+        margin: auto;
+        max-width: $dimensione-container;
+        height: 80px;
+        border-bottom: 1px solid $colore-border-bottom;
+        color: $colore-principale-testi;
 
-    .header-left {
-        width: 60%;
-    }
+        .header-left {
+            width: 60%;
+        }
 
-    .header-right {
-        width: 40%;
+        .header-right {
+            width: 40%;
 
-        ul {
-            display: flex;
-            
-            justify-content: space-around;
-            align-items: center;
+            ul {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
 
-            li {
-                list-style-type: none;
-                font-size: $dimensione-testo-menu;
-            }
-
-            a {
-                color: $colore-principale-testi;
-                text-decoration: none;
-
-                &:hover {
-                    color: $colore-hover;
+                li {
+                    list-style-type: none;
+                    font-size: $dimensione-testo-menu;
                 }
-            }
 
-            button {
-                border: 1px solid #30488f;
-                line-height: 33px;
-                background: #fff;
-                color: #30488f !important;
+                a {
+                    color: $colore-principale-testi;
+                    text-decoration: none;
 
-                &:hover {
-                    background-color: $colore-hover;
-                    transition: 1s;
+                    &:hover {
+                        color: $colore-hover;
+                    }
+                }
+
+                button {
+                    border: 1px solid #30488f;
+                    line-height: 33px;
+                    background: #fff;
+                    color: #30488f !important;
+
+                    &:hover {
+                        background-color: $colore-hover;
+                        transition: 1s;
+                    }
                 }
             }
         }
