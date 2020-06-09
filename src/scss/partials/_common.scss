@@ -20,3 +20,35 @@ button {
         transition: 1s;
     }
 }
+
+.title {
+    margin: 0 auto;
+    padding: $padding-titoli-sezioni;
+
+    h2 {
+        font-size: $dimensione-titoli-sezioni;
+    }
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+
+    .block {
+        text-align: center;
+
+        img {
+            height: 100px;
+        }
+
+        .rabbit {
+            padding-top: 50px;
+            height: 300px;
+        }
+
+        p {
+            text-align: center;
+            font-size: $dimensione-testo-paragrafi;
+        }
+    }
+}

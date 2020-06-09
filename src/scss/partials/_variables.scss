@@ -1,13 +1,20 @@
+// font e colori testi
 $font-pagina: 'PT Sans', sans-serif;
 $colore-principale-testi: #58402c;
+$colore-border-bottom: #bdb5af;
+$colore-hover: #30488F;
+$colore-hover-jumbotron: #233569;
+$colore-small: #bdb5af;
+$colore-sfondo-blocks:  #ffe7d2;
+
+//dimensioni
 $dimensione-container: 1440px;
 $dimensione-titoli-sezioni: 26px;
 $dimensione-testo-paragrafi: 18px;
 $dimensione-testo-menu: 14px;
 $dimensione-testo-jumbotron: 50px;
-$colore-border-bottom: #bdb5af;
-$colore-hover: #30488F;
-$colore-hover-jumbotron: #233569;
-$colore-small: #bdb5af;
+
+//spazi
 $spaziatura-small: 5px;
 $padding-email: 20px;
+$padding-titoli-sezioni: 50px;

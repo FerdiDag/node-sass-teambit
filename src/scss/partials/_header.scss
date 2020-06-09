@@ -1,5 +1,6 @@
 .header-container {
     display: flex;
+
     align-items: center;
     margin: auto;
     max-width: $dimensione-container;
@@ -16,6 +17,7 @@
 
         ul {
             display: flex;
+            
             justify-content: space-around;
             align-items: center;
 

@@ -1,0 +1,11 @@
+#blocks {
+    background-color: $colore-sfondo-blocks;
+
+    .container {
+        max-width: $dimensione-container;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        background-color: $colore-sfondo-blocks;
+    }
+}
